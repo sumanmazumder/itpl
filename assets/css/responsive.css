@@ -1,0 +1,211 @@
+
+/* Large screens */
+
+@media (max-width: 2560px){
+}
+
+@media (max-width: 1920px){
+}
+
+@media (max-width: 1536px){
+}
+
+/* Medium screens */
+
+@media (max-width: 1440px){
+}
+
+@media (max-width: 1366px){
+}
+
+@media (max-width: 1199px){
+}
+
+@media (max-width: 1024px){
+}
+
+/* tab view */
+
+@media (max-width: 991px){
+    .home-banner{
+        padding-top: 100px;
+    }
+    .home-banner .banner-text h1 span{
+        font-size: 4rem;
+    }
+    .home-banner .banner-text h1{
+        transform: rotate(-90deg) translate(-28px, -165px);
+        line-height: 30px;
+    }
+    .home-banner form textarea {
+        height: 75px;
+    }
+    .home-banner form input[type="submit"]{
+        margin-top: 0px;
+    }
+    .services{
+        padding-bottom: 0px;
+    }
+    .services ul{
+        flex-wrap: wrap;
+    }
+    .services ul li{
+        width: calc(100%/4);
+        margin-bottom: 15px;
+        min-height: 240px;
+    }
+    .services ul li h3{
+        font-size: 1.2rem;
+    }
+    .services ul li:nth-child(3n){
+        margin-right: 0px;
+    }
+    .heading p{
+        font-size: 1.3rem;
+    }
+    .how-it-work p, .what-we-do .sec p{
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+    .how-it-work h4{
+        font-size: 1.3rem;
+    }
+    .what-we-do .sec{
+        padding: 30px 15px;
+        min-height: 460px;
+    }
+    .what-we-do h3, .app-development .heading p, .list li h5{
+        font-size: 1.3rem;
+    }
+    .what-we-do span{
+        min-height: 60px;
+    }
+    .adventage p{
+        font-size: 1.2rem;
+    }
+    .list{
+        margin-top: 0px;
+    }
+    .lets-talk h2{
+        font-size: 3rem;
+    }
+    .lets-talk::after{
+        background-size: contain;
+    }
+    footer{
+        padding-top: 30px;
+    }
+    footer .contact li{
+        padding: 15px 15px;
+    }
+    footer .contact li a{
+        font-size: 1.5rem;
+    }
+    header{
+        background: none;
+    }
+    .navbar-nav{
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+/* mobile view */
+
+@media (max-width: 767px){
+    .home-banner .banner-text h1{
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+    .home-banner .banner-text p{
+        margin-left: 0px;
+    }
+    .home-banner .banner-text h1 span{
+        width: auto;
+        font-size: inherit;
+    }
+    .home-banner .banner-text h1{
+        font-size:3rem;
+        text-transform: uppercase;
+    }
+    .home-banner{
+        padding-top: 120px;
+    }
+    .heading h2{
+        font-size: 2rem;
+    }
+    .col-heading{
+        font-size: 1.5rem;
+    }
+    .services ul li{
+        width: calc(100%/3 - 10px);
+    }
+    .how-it-work .col-lg-3 > div{
+        margin-bottom: 15px;
+    }
+    .what-we-do .sec{
+        min-height: 393px;
+    }
+    .adventage ul{
+        flex-wrap: wrap;
+    }
+    .adventage ul li{
+        flex: 0 0 50%;
+    }
+    .list{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    .heading{
+        margin-bottom: 20px;
+    }
+    .services ul li{
+        width: calc(100%/2 - 10px);
+        padding: 15px;
+        margin-right: 10px;
+    }
+    .services ul li:nth-child(2n){
+        margin-right: 0px;
+    }
+    .services ul li:nth-child(3n){
+        margin-right: 10px;
+    }
+    footer .contact li a {
+        font-size: 1.2rem;
+    }
+    .app-development{
+        padding-bottom: 0px;
+    }
+    .lets-talk h2{
+        font-size: 2rem;
+    }
+    .what-we-do .sec {
+        min-height: 300px;
+    }
+    .whatsapp img{
+        width: 50px;
+    }
+    .whatsapp{
+        bottom: -30px;
+    }
+    .home-banner .banner-text h1{
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 414px){
+    .services ul li{
+        width: calc(100%/1 - 0px);
+        margin-right: 0px;
+    }
+    .services ul li:nth-child(3n){
+        margin-right: 0px;
+    }
+    
+}
+
+@media (max-width: 375px){
+}
+
+@media (max-width: 320px){
+}
