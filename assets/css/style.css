@@ -472,3 +472,134 @@ footer .contact li a{
 .business-online .heading p{
     font-size: 2.3rem;
 }
+.about-banner{
+    background: url(../images/about-banner.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    min-height: 800px;
+}
+.about-banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #758EB7;
+    top:0px;
+    left: 0px;
+    opacity: 0.7;
+    z-index: -1;
+}
+.about-banner .banner-text{
+    position: relative;
+    width: 100%;
+    padding-top: 17%;
+}
+.about-banner .whatsapp{
+    bottom: 15px;
+}
+.about-banner .banner-text h1{
+    color: #040D43;
+}
+.about-banner .banner-text p{
+    width: 50%;
+    text-align: center;
+}
+.about-banner .banner-text h2{
+    color: #ffffff;
+    font-size: 4rem;
+    position: relative;
+}
+.about-banner .banner-text h2:after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 300px;
+    height: 1px;
+    background-color: #ffffff;
+    left: 40px;
+}
+.about-banner .banner-text .about-img{
+    position: absolute;
+    transform: translate(300px, -90px);
+}
+
+
+/* contact us */
+.contact-banner{
+    min-height: 700px;
+    padding-top: 10%;
+    position: relative;
+    z-index: 0;
+}
+.banner.contact-banner::after{
+    width: 17%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    right: 15px;
+    background-color: #008D97;
+    top:0px;
+    z-index: -1;
+}
+.contact-banner .banner-text{
+    position: relative;
+}
+.contact-banner h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.contact-banner .banner-text h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #163D89;
+}
+.contact-banner .banner-text p{
+    color: #000000;
+    font-size: 1.8rem;
+}
+.banner.contact-banner .info ul{
+    background: linear-gradient(180deg, #758EB7 0%, #705F93 100%);
+    border-radius: 5px;
+    width: 95%;
+    padding: 30px;
+    position: relative;
+}
+.banner.contact-banner .info h3{
+    font-weight: 800;
+    color: #ffffff;
+    text-align: right;
+    font-size: 2.5rem;
+    position: absolute;
+    right: 12px;
+    top: -28px;
+}
+.banner.contact-banner .info ul li{
+    margin-bottom: 30px;
+}
+.banner.contact-banner .info ul li:last-child{
+    margin-bottom: 0px;
+}
+.banner.contact-banner .info ul li a, .banner.contact-banner .info ul li p{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.banner.contact-banner .whatsapp{
+    left: inherit;
+    right: 52px;
+    bottom: 119px;
+}
+.contact-form .form{
+    background: linear-gradient(180deg, #88D3D9 0%, #007680 100%);
+    border-radius: 5px;
+    padding: 30px;
+}
+.contact-form .form h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.contact-form .form input{}
+.contact-form .form{}
