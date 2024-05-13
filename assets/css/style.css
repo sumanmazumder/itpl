@@ -162,7 +162,7 @@ header .navbar-brand{
     margin-bottom: 10px;
 }
 .services ul li{ 
-    width: calc(100%/5);
+    width: calc(100%/5 - 10px);
     padding: 30px 30px; 
     box-sizing: border-box; 
     height: 100%; 
@@ -473,7 +473,7 @@ footer .contact li a{
     font-size: 2.3rem;
 }
 .about-banner{
-    background: url(../images/about-banner.png) no-repeat;
+    background: url(../images/about-banner-img.png) no-repeat;
     background-size: cover;
     position: relative;
     z-index: 0;
@@ -585,10 +585,20 @@ footer .contact li a{
     color: #ffffff;
     font-size: 1.5rem;
 }
+.banner.contact-banner .info ul li img{
+    margin-right: 10px;
+    width: 30px;
+}
+.banner.contact-banner .info ul li p img{
+    float: left;
+}
 .banner.contact-banner .whatsapp{
     left: inherit;
     right: 52px;
-    bottom: 119px;
+    bottom: 97px;
+}
+.banner.contact-banner .whatsapp img{
+    width: 42px;
 }
 .contact-form .form{
     background: linear-gradient(180deg, #88D3D9 0%, #007680 100%);
@@ -601,5 +611,24 @@ footer .contact li a{
     color: #ffffff;
     margin-bottom: 30px;
 }
-.contact-form .form input{}
-.contact-form .form{}
+.contact-form .form input, .contact-form .form textarea, .contact-form .form select{
+    width: 100%;
+    margin-bottom: 22px;
+    border: 0px;
+    border-bottom: 1px solid #000000;
+    background: #FFFFFF59;
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+}
+.contact-form .form input:focus, .contact-form .form textarea:focus, .contact-form .form select:focus{
+    outline: none;
+}
+.contact-form .form input::placeholder, .contact-form .form textarea::placeholder, .contact-form .form select::placeholder{
+    color: #000000;
+}
+.contact-form .form input[type="submit"]{
+    background: linear-gradient(0deg, #FF7B89 1.92%, #A5CAD2 90.87%);
+    font-size: 1.2rem;
+    font-weight: 600;
+}

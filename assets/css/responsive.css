@@ -22,6 +22,46 @@
 }
 
 @media (max-width: 1024px){
+    header .navbar-light .navbar-nav .nav-link{
+        font-size: 1rem;
+        padding: 7px 25px;
+    }
+    .services ul{
+        flex-wrap: wrap;
+    }
+    .services ul li{
+        padding: 15px;
+        width: calc(100%/3 - 10px);
+        margin-bottom: 10px;
+        min-height: 219px;
+    }
+    .services ul li h3{
+        font-size: 1.2rem;
+    }
+    .services ul li:nth-child(3n){
+        margin-right: 0px;
+    }
+    .home-banner .banner-text h1{
+        transform: rotate(0deg) translate(0px);
+    }
+    .home-banner .banner-text p{
+        margin-left: 0px;
+    }
+    .whatsapp img{
+        width: 52px;
+    }
+    .what-we-do .sec{
+        min-height: 556px;
+    }
+    .lets-talk h2{
+        font-size: 4rem;
+    }
+    footer .contact li a{
+        font-size: 1.3rem;
+    }
+    footer ul li a{
+        font-size:1rem;
+    }
 }
 
 /* tab view */
@@ -33,9 +73,12 @@
     .home-banner .banner-text h1 span{
         font-size: 4rem;
     }
-    .home-banner .banner-text h1{
+    /* .home-banner .banner-text h1{
         transform: rotate(-90deg) translate(-28px, -165px);
         line-height: 30px;
+    } */
+    .home-banner .banner-text h1 span{
+        -webkit-text-fill-color: #ffffff;
     }
     .home-banner form textarea {
         height: 75px;
@@ -107,6 +150,20 @@
     .navbar-nav{
         background-color: rgba(255, 255, 255, 0.9);
     }
+    /* about us */
+    .about-banner .banner-text .about-img{
+        max-width: 50%;
+        width: 100%;
+    }
+    .about-banner .banner-text h1{
+        font-size: 4rem;
+    }
+    .about-banner .banner-text h2{
+        font-size: 3rem;
+    }
+    .about-banner{
+        min-height: 670px;
+    }
 }
 
 /* mobile view */
@@ -152,6 +209,33 @@
     }
     .list{
         width: 100%;
+    }
+    .about-banner .banner-text h1{
+        font-size: 3rem;
+    }
+    .about-banner .banner-text .about-img{
+        position: relative;
+        transform: translate(0px);
+    }
+    .about-banner .banner-text h2 br{
+        display: none;
+    }
+    .about-banner .banner-text h2{
+        font-size: 2.5rem;
+        padding-bottom: 5px;
+    }
+    .about-banner .banner-text p{
+        width: 100%;
+        text-align: left;
+    }
+    .about-banner .banner-text h2::after{
+        left: 0px;
+    }
+    .about-banner .banner-text{
+        padding-top: 26%;
+    }
+    .revenew .text-outline{
+        font-size: 5rem;
     }
 }
 
@@ -205,7 +289,16 @@
 }
 
 @media (max-width: 375px){
+    footer .contact li a {
+        font-size: 0.9rem;
+    }
+    footer .contact li img{
+        width: 18px;
+    }
 }
 
 @media (max-width: 320px){
+    footer .contact li a {
+        font-size: 0.8rem;
+    }
 }
