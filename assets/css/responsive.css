@@ -182,7 +182,7 @@
     }
     
     .navbar-toggler-icon{
-        background: none #ffffff;
+        background: #2168c3;
         height: 2px;
         position: relative;
         background-image: none !important;
@@ -194,26 +194,28 @@
         position: absolute;
         width: 30px;
         height: 2px;
-        background-color: #ffffff;
-        top: 0px;
-        left: 0px;
+        background-color: #2168c3;
+        top: 8px;
+        left: 6px;
     }
     .navbar-light .navbar-toggler:after{
         content: "";
         position: absolute;
         width: 30px;
         height: 2px;
-        background-color: #ffffff;
-        bottom: 0px;
-        left: 0px;
+        background-color: #2168c3;
+        bottom: 8px;
+        left: 6px;
     }
     .navbar-light .navbar-toggler{
         border: 0px;
         box-shadow: 0px 0px 0px;
         padding: 0px;
         position: relative;
-        width: 40px;
-        height: 30px;
+        width: 44px;
+        height: 40px;
+        background-color: #ffffff;
+        padding: 6px;
     }
 }
 
@@ -307,7 +309,30 @@
         font-size: 3rem;
     }
     .inner-banner .banner-text{
-        top: 30%;
+        top: 36%;
+    }
+    .inner-banner.contact-banner::after{
+        display: none;
+    }
+    .inner-banner.contact-banner .info ul{
+        width: 100%;
+    }
+    .inner-banner.contact-banner .info h3{
+        position: relative;
+        right: inherit;
+        left: 0px;
+        top: 0px;
+        text-align: left;
+    }
+    .inner-banner.contact-banner .whatsapp{
+        right: 36px;
+        bottom: 20px;
+    }
+    .contact-banner h1{
+        margin-bottom: 20px;
+    }
+    .contact-banner{
+        padding-top: 17%;
     }
 }
 
@@ -364,6 +389,12 @@
     .inner-banner .banner-text{
         top: 30%;
     }
+    .contact-banner{
+        padding-top: 30%;
+    }
+    .inner-banner.contact-banner .info ul li a, .inner-banner.contact-banner .info ul li p{
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 414px){
@@ -407,7 +438,13 @@
     }
     .inner-banner .banner-text p {
         font-size: 1rem;
-      }
+    }
+    .it-solution-banner{
+        min-height: 320px;
+    }
+    .inner-banner .banner-text{
+        top: 40%;
+    }
 }
 
 @media (max-width: 375px){
@@ -436,6 +473,15 @@
     .home-banner .banner-text p{
         font-size: 1rem;
         line-height: 1;
+    }
+    .inner-banner .banner-text h1{
+        font-size: 1.8rem;
+    }
+    .inner-banner .banner-text{
+        top: 38%;
+    }
+    .col-heading{
+        font-size: 1.2rem;
     }
 }
 

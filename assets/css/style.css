@@ -402,6 +402,15 @@ footer .contact li a{
 .website-development::after{
     background-color: #8A5082;
 }
+.app-development-banner::after{
+    background-color: #0DA4B5;
+}
+.website-maintenance-banner::after{
+    background-color: #040D43;
+}
+.it-solution-banner.website-maintenance-banner{
+    background: url(../images/website-maintanence-banner.jpg) no-repeat center;
+}
 /* home page */
 .home-banner{
     background: url(../images/home-banner.jpg) no-repeat center;
