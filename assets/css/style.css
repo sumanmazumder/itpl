@@ -91,14 +91,14 @@ header .navbar-brand{
     padding: 0px;
     padding-top: 3px;
 }
-.banner{
+.inner-banner{
     position: relative;
 }
-.banner .banner-image{
+.inner-banner .banner-image{
     /* position: absolute; */
     top:0px;
 }
-.banner .banner-image:after{
+.inner-banner .banner-image:after{
     content: "";
     position: absolute;
     width: 100%;
@@ -108,15 +108,15 @@ header .navbar-brand{
     left: 0px;
     opacity: 0.6;
 }
-.banner .banner-text{
+.inner-banner .banner-text{
     position: absolute;
     top: 40%;
 }
-.banner .banner-text h1{
+.inner-banner .banner-text h1{
     font-size: 4.5rem;
     color: #ffffff;
 }
-.banner .banner-text p{
+.inner-banner .banner-text p{
     color: #ffffff;
     font-size: 1.4rem;
 }
@@ -559,7 +559,7 @@ footer .contact li a{
     position: relative;
     z-index: 0;
 }
-.banner.contact-banner::after{
+.inner-banner.contact-banner::after{
     width: 17%;
     height: 100%;
     position: absolute;
@@ -586,14 +586,14 @@ footer .contact li a{
     color: #000000;
     font-size: 1.8rem;
 }
-.banner.contact-banner .info ul{
+.inner-banner.contact-banner .info ul{
     background: linear-gradient(180deg, #758EB7 0%, #705F93 100%);
     border-radius: 5px;
     width: 95%;
     padding: 30px;
     position: relative;
 }
-.banner.contact-banner .info h3{
+.inner-banner.contact-banner .info h3{
     font-weight: 800;
     color: #ffffff;
     text-align: right;
@@ -602,29 +602,29 @@ footer .contact li a{
     right: 12px;
     top: -28px;
 }
-.banner.contact-banner .info ul li{
+.inner-banner.contact-banner .info ul li{
     margin-bottom: 30px;
 }
-.banner.contact-banner .info ul li:last-child{
+.inner-banner.contact-banner .info ul li:last-child{
     margin-bottom: 0px;
 }
-.banner.contact-banner .info ul li a, .banner.contact-banner .info ul li p{
+.inner-banner.contact-banner .info ul li a, .inner-banner.contact-banner .info ul li p{
     color: #ffffff;
     font-size: 1.5rem;
 }
-.banner.contact-banner .info ul li img{
+.inner-banner.contact-banner .info ul li img{
     margin-right: 10px;
     width: 30px;
 }
-.banner.contact-banner .info ul li p img{
+.inner-banner.contact-banner .info ul li p img{
     float: left;
 }
-.banner.contact-banner .whatsapp{
+.inner-banner.contact-banner .whatsapp{
     left: inherit;
     right: 52px;
     bottom: 97px;
 }
-.banner.contact-banner .whatsapp img{
+.inner-banner.contact-banner .whatsapp img{
     width: 42px;
 }
 .contact-form .form{
