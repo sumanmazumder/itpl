@@ -401,6 +401,9 @@
     .home-banner{
         padding-bottom: 55px;
     }
+    .adventage p{
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 414px){
@@ -460,6 +463,9 @@
     .inner-banner.contact-banner .info ul li a{
         word-break: break-all;
     }
+    .adventage ul{
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 375px){
@@ -475,9 +481,6 @@
     }
     .adventage p{
         font-size: 1rem;
-    }
-    .adventage ul{
-        padding-left: 10px;
     }
     .adventage ul li:nth-child(2n), .adventage ul li:nth-child(4n){
         flex: 0 0 40%;
