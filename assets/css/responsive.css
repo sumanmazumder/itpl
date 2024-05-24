@@ -334,6 +334,9 @@
     .contact-banner{
         padding-top: 17%;
     }
+    .home-banner form{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
 }
 
 @media (max-width: 575px){
@@ -395,6 +398,9 @@
     .inner-banner.contact-banner .info ul li a, .inner-banner.contact-banner .info ul li p{
         font-size: 1.2rem;
     }
+    .home-banner{
+        padding-bottom: 55px;
+    }
 }
 
 @media (max-width: 414px){
@@ -444,6 +450,15 @@
     }
     .inner-banner .banner-text{
         top: 40%;
+    }
+    .inner-banner.contact-banner .info ul{
+        padding: 10px;
+    }
+    .inner-banner.contact-banner .info h3{
+        font-size: 2rem;
+    }
+    .inner-banner.contact-banner .info ul li a{
+        word-break: break-all;
     }
 }
 
