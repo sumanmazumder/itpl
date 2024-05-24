@@ -296,6 +296,14 @@
     }
     .home-banner .banner-text h1{
         line-height: 40px;
+        font-size: 2.3rem;
+    }
+    .home-banner .banner-text h1 span{
+        font-weight: inherit;
+    }
+    .home-banner .banner-text p{
+        font-size: 1.1rem;
+        line-height: 1;
     }
 }
 
@@ -313,6 +321,16 @@
     }
     footer ul li a{
         margin-bottom: 10px;
+    }
+    .home-banner .banner-text h1{
+        font-size: 2rem;
+    }
+    .home-banner .banner-text h1 span{
+        font-weight: inherit;
+    }
+    .home-banner .banner-text p{
+        font-size: 1.1rem;
+        line-height: 1;
     }
 }
 
@@ -335,6 +353,13 @@
     }
     .adventage ul li:nth-child(2n), .adventage ul li:nth-child(4n){
         flex: 0 0 40%;
+    }
+    .home-banner .banner-text h1{
+        font-size: 1.8rem;
+    }
+    .home-banner .banner-text p{
+        font-size: 1rem;
+        line-height: 1;
     }
 }
 
