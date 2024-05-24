@@ -181,6 +181,10 @@
     }
     .home-banner .banner-text p{
         margin-left: 0px;
+        box-decoration-break: clone;
+        background-color: #1f69c8;
+        line-height: 1.8;
+        display: inline;
     }
     .home-banner .banner-text h1 span{
         width: auto;
@@ -189,6 +193,11 @@
     .home-banner .banner-text h1{
         font-size:3rem;
         text-transform: uppercase;
+        font-weight: 800;
+        background-color: #1f69c8;
+        display: inline-block;
+        padding: 0px 5px;
+        border-radius: 5px;
     }
     .home-banner{
         padding-top: 120px;
@@ -244,8 +253,12 @@
     .revenew .text-outline{
         font-size: 5rem;
     }
-
-    
+    .what-we-do .heading h2 span{
+        min-height: inherit;
+    }
+    .how-it-work{
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 575px){
@@ -294,7 +307,13 @@
     .services ul li:nth-child(3n){
         margin-right: 0px;
     }
-    
+    footer .contact li{
+        width: 100%;
+        padding: 15px 5px;
+    }
+    footer ul li a{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 375px){
@@ -304,10 +323,29 @@
     footer .contact li img{
         width: 18px;
     }
+    .adventage ul li{
+        padding: 0px;
+        flex: 0 0 60%;
+    }
+    .adventage p{
+        font-size: 1rem;
+    }
+    .adventage ul{
+        padding-left: 10px;
+    }
+    .adventage ul li:nth-child(2n), .adventage ul li:nth-child(4n){
+        flex: 0 0 40%;
+    }
 }
 
 @media (max-width: 320px){
     footer .contact li a {
         font-size: 0.8rem;
+    }
+    .adventage ul li{
+        flex: 0 0 100%;
+    }
+    .adventage ul li:nth-child(2n), .adventage ul li:nth-child(4n){
+        flex: 0 0 100%;
     }
 }
