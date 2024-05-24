@@ -180,6 +180,41 @@
     .it-solution-banner {
         min-height: 410px;
     }
+    
+    .navbar-toggler-icon{
+        background: none #ffffff;
+        height: 2px;
+        position: relative;
+        background-image: none !important;
+        width: 20px;
+        float: left;
+    }
+    .navbar-light .navbar-toggler::before{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #ffffff;
+        top: 0px;
+        left: 0px;
+    }
+    .navbar-light .navbar-toggler:after{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #ffffff;
+        bottom: 0px;
+        left: 0px;
+    }
+    .navbar-light .navbar-toggler{
+        border: 0px;
+        box-shadow: 0px 0px 0px;
+        padding: 0px;
+        position: relative;
+        width: 40px;
+        height: 30px;
+    }
 }
 
 /* mobile view */
@@ -271,6 +306,9 @@
     .inner-banner .banner-text h1{
         font-size: 3rem;
     }
+    .inner-banner .banner-text{
+        top: 30%;
+    }
 }
 
 @media (max-width: 575px){
@@ -322,6 +360,9 @@
     }
     .inner-banner.it-solution-banner.digital-marketing{
         background-position: center center;
+    }
+    .inner-banner .banner-text{
+        top: 30%;
     }
 }
 
