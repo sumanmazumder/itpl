@@ -444,12 +444,17 @@ footer .contact li a{
 .home-banner form textarea{
     height: 164px;
 }
-.home-banner form input[type="submit"]{
+.home-banner form input[type="submit"], .home-banner form button{
     font-weight: 600;
     font-size: 1rem;
     height: inherit;
     padding: 10px 0px;
     margin-top: 30px;
+    width: 100%;
+    border:0px;
+    background: #68C7C24D url(../images/ep_top.svg) no-repeat;
+    border-bottom:1px solid #020D3C;
+    background-position: right center;
 }
 .home-banner .banner-text h1{
     transform: rotate(-90deg) translate(-28px, -275px);
@@ -663,10 +668,13 @@ footer .contact li a{
 .contact-form .form input::placeholder, .contact-form .form textarea::placeholder, .contact-form .form select::placeholder{
     color: #000000;
 }
-.contact-form .form input[type="submit"]{
+.contact-form .form input[type="submit"], .contact-form .form button{
     background: linear-gradient(0deg, #FF7B89 1.92%, #A5CAD2 90.87%);
     font-size: 1.2rem;
     font-weight: 600;
+    width: 100%;
+    border:0px;
+    padding: 7px 0px;
 }
 
 /* Digital marketing */
