@@ -34,7 +34,7 @@ a{
     margin-bottom: 40px;
 }
 .heading h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 .heading span{
@@ -53,11 +53,18 @@ a{
 section{
     padding: 30px 0px;
 }
+.container-fluid-02{
+    width: 85%;
+    display: table;
+    margin: 0 auto;
+}
 header{
     position: absolute;
     width: 100%;
-    background: url(../images/header-bg.svg) no-repeat center;
-    background-size: 100% 100%;
+    /* background: url(../images/header-bg.svg) no-repeat center; */
+    /* background-size: 100% 100%; */
+    background: linear-gradient(90.04deg, rgba(255, 255, 255, 0.7) 10.2%, rgba(224, 224, 224, 0.28) 104.38%);
+    border: 1px solid #C3C3C3;
     top: 0px;
     z-index: 2;
 }
@@ -115,6 +122,7 @@ header .navbar-brand{
 .inner-banner .banner-text h1{
     font-size: 4.5rem;
     color: #ffffff;
+    text-transform: uppercase;
 }
 .inner-banner .banner-text p{
     color: #ffffff;
@@ -124,7 +132,11 @@ header .navbar-brand{
     position: absolute;
     bottom: -40px;
     left: 15px;
-    border: 0px;
+    /* border   : 0px; */
+    border: 1px solid #00739A;
+    border-radius: 5px;
+    border-left: 0px;
+    border-right: 0px;
 }
 .lets-talk-btn{
     position: absolute;
@@ -139,12 +151,19 @@ header .navbar-brand{
     /* overflow: hidden; */
 }
 .col-heading{
-    background: url(../images/text-bg.svg) no-repeat;
+    /* background: url(../images/text-bg.svg) no-repeat; */
     background-size: cover;
     display: inline-block;
     font-size: 2rem;
     color: #ffffff;
     padding: 10px 30px;
+    background: linear-gradient(90deg, #758EB7 0%, #705F93 100%);
+    border-radius: 7px 0px 7px 0px;
+    border: 0px 2px 0px 2px;
+    border-style: solid;
+    border-color: #040D43;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 .services ul{
     /* background: url(../images/services-bg.svg) no-repeat bottom; */
@@ -157,13 +176,13 @@ header .navbar-brand{
     box-shadow: 0px 6px 6px #959595;
 }
 .services ul li h3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #163D89;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .services ul li{ 
-    width: calc(100%/5 - 10px);
-    padding: 30px 30px; 
+    width: calc(100%/6 - 10px);
+    padding: 30px 0px 0px; 
     box-sizing: border-box; 
     height: 100%; 
     min-height: 269px;
@@ -176,21 +195,26 @@ header .navbar-brand{
 .services ul li .img{
     margin-bottom: 15px;
 }
-.services ul li:nth-child(1n):hover{
+.services ul li:nth-child(1):hover, .services ul li:nth-child(1).active{
     background-image: linear-gradient(#A5CAD2, #758EB7);
 }
-.services ul li:nth-child(2n):hover, .services ul li:nth-child(5n):hover{
+ .services ul li:nth-child(2):hover, .services ul li:nth-child(5):hover, .services ul li:nth-child(2).active, .services ul li:nth-child(5).active{
     background-image: linear-gradient(#A5CBD2, #705F93);
 }
-.services ul li:nth-child(3n):hover{
+.services ul li:nth-child(3n):hover, .services ul li:nth-child(3n).active{
     background-image: linear-gradient(#B4C4DD, #3A5891);
 }
-.services ul li:nth-child(4n):hover{
+.services ul li:nth-child(4n):hover, .services ul li:nth-child(4n).active{
     background-image: linear-gradient(#758EB7, #A5CAD2);
 }
-.services ul li:nth-child(6n):hover{
+.services ul li:nth-child(6n):hover, .services ul li:nth-child(6n).active{
     background-image: linear-gradient(#011274, #C0C9FE);
 }
+
+.services ul li:hover h3, .services ul li.active h3{
+    color: #ffffff;
+}
+
 .how-it-work h3{
     font-size: 1.5rem;
     color: #031837;
@@ -225,11 +249,17 @@ header .navbar-brand{
     padding: 30px 15px;
     border-radius: 5px;
 }
+.how-it-work .heading h2{
+    font-size: 2rem;
+}
+.how-it-work .heading{
+    margin-bottom: 0px;
+}
 .what-we-do .sec{
     border:1px solid #090F17;
-    padding: 30px 50px;
+    padding: 30px 30px;
     border-radius: 5px;
-    min-height: 420px;
+    min-height: 501px;
     margin-bottom: 30px;
     padding-bottom: 0px;
 }
@@ -239,6 +269,10 @@ header .navbar-brand{
 .what-we-do span{
     display: inline-block;
     margin-bottom: 15px;
+    min-height: 80px;
+}
+.what-we-do .heading span{
+    min-height: 0px;
 }
 .what-we-do .sec:hover{
     background-image: linear-gradient(#A5CAD2, #758EB7);
@@ -249,10 +283,17 @@ header .navbar-brand{
 .what-we-do .sec:hover h3{
     color: #ffffff;
 }
+.what-we-do .heading p{
+    font-size: 35px;
+}
+.what-we-do .sec p{
+    font-size: 1.6rem;
+}
 
 .adventage{
     background: url(../images/gradient-background.svg) no-repeat center;
     background-size: cover;
+    padding: 50px 0px;
 }
 .adventage p{
     margin-bottom: 0px;
@@ -313,7 +354,7 @@ header .navbar-brand{
     border-color: #ffffff;
 }
 .list{
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -321,42 +362,111 @@ header .navbar-brand{
     position: relative;
     width: 100%;
     padding: 15px 0px;
+    margin-bottom: 15px;
+}
+.list li:nth-child(1){
+    background: linear-gradient(89.87deg, #8A5082 0.55%, rgba(138, 80, 130, 0.69) 101.38%);
+    border-bottom: 2px solid #428BC1;
+    border-radius: 6px;
+    border: 0px 0px 2px 0px;
+}
+.list li:nth-child(2){
+    background: linear-gradient(90deg, #A5CAD2 0%, #009CA8 100%);
+    border-bottom: 2px solid #428BC1;
+    border-radius: 6px;
+    border: 0px 0px 2px 0px;
+}
+.list li:nth-child(3){
+    background: linear-gradient(90deg, #AFDFE1 0%, #8A5082 100%);
+    border-bottom: 2px solid #428BC1;
+    border-radius: 6px;
+    border: 0px 0px 2px 0px;
+}
+.expertise-list li:nth-child(1){
+    background: linear-gradient(90deg, #007680 0%, rgba(0, 141, 151, 0.75) 100%);
+}
+.expertise-list li:nth-child(2){
+    background: linear-gradient(90deg, #FF7B89 0%, rgba(255, 123, 137, 0.4) 100%);
+}
+.expertise-list li:nth-child(3){
+    background: linear-gradient(90deg, #FF7B89 0%, #017781 100%);
+}
+
+.list li:last-child{
+    margin-bottom: 0px;
 }
 .list li::after{
     content:"";
     position: absolute;
-    width: 100%;
-    background-image: linear-gradient(to right, #A5CAD2,#8A5082);
-    left: 0px;
-    height: 2px;
+    width: 40px;
+    background: url(../images/lets-icons_down.svg) no-repeat;
+    right: 40px;
+    height: 40px;
+    top:12px;
 }
 
 .list li h5{
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 20px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding: 5px 0px;
 }
 .app-development .list li p{
     font-size: 1rem;
     padding-bottom: 15px;
 }
+.app-development h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.home-footer{
+    background-image: url(../images/home-footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+.home-footer:after{
+    background: #FFFFFF80;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    right: 0px;
+}
+footer {
+    padding-bottom: 15px;
+}
+footer .borderr{
+    border-left: 1px solid #014F59;
+}
 footer .heading h2{
-    color: #014F59;
+    color: #040D43;
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #014F59;
+    font-size: 2.5rem;
 }
 footer ul h3{
-    color: #163D89;
+    color: #040D43;
     font-size: 1.5rem;
     border: 1px solid #014F5B;
     border-radius: 5px;
     text-align: center;
     padding: 5px 0px;
     margin-bottom: 15px;
+    background: #FFFFFF99;
+    font-weight: 800;
 }
 footer ul li a{
-    color: #163D89;
+    color: #040D43;
     font-size: 1.3rem;
     margin-bottom: 20px;
     font-weight: 600;
@@ -370,10 +480,11 @@ footer .contact li{
     border-bottom: 1px solid #00739A;
     padding: 30px 15px;
     border-radius: 10px;
+    background: #FFFFFF80;
 }
 footer .contact li a{
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;
     width: 100%;
     margin-bottom: 0px;
@@ -413,9 +524,9 @@ footer .contact li a{
 }
 /* home page */
 .home-banner{
-    background: url(../images/home-banner.jpg) no-repeat center;
+    background: url(../images/home-banner.jpg) no-repeat top right;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 140px;
     padding-bottom: 125px;
 }
 .home-banner .banner-text{
@@ -425,6 +536,9 @@ footer .contact li a{
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 6px 0px 6px 0px;
     padding: 15px;
+    width: 74%;
+    display: table;
+    margin: 0 auto;
 }
 .home-banner form input, .home-banner form textarea, .home-banner form select{
     background: #68C7C24D;
@@ -457,7 +571,7 @@ footer .contact li a{
     background-position: right center;
 }
 .home-banner .banner-text h1{
-    transform: rotate(-90deg) translate(-28px, -275px);
+    transform: rotate(-90deg) translate(0px, -275px);
     font-size: 1.6rem;
 }
 .home-banner .banner-text h1 span{
@@ -472,9 +586,13 @@ footer .contact li a{
 }
 .home-banner .banner-text p{
     margin-left: 102px;
+    transform: translate(0px, -72px);
+    width: 67%;
 }
 .app-development .heading p{
     font-size: 1.6rem;
+    width: 90%;
+    margin: 0 auto;
 }
 .lets-talk{
     background-image: linear-gradient(#00ABBC, #FF7B89);

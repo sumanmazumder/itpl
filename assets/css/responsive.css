@@ -60,7 +60,7 @@
         font-size: 1.3rem;
     }
     footer ul li a{
-        font-size:1rem;
+        font-size:1.4rem;
     }
 }
 
@@ -98,7 +98,7 @@
         min-height: 240px;
     }
     .services ul li h3{
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     .services ul li:nth-child(3n){
         margin-right: 0px;
@@ -107,7 +107,7 @@
         font-size: 1.3rem;
     }
     .how-it-work p, .what-we-do .sec p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 0px;
     }
     .how-it-work h4{
@@ -118,13 +118,13 @@
         min-height: 460px;
     }
     .what-we-do h3, .app-development .heading p, .list li h5{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
     .what-we-do span{
         min-height: 60px;
     }
     .adventage p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .list{
         margin-top: 0px;
@@ -176,9 +176,14 @@
     }
     .inner-banner .banner-text p{
         font-size: 1.2rem;
+        transform: translate(0px, 0px);
+        width: 100%;
     }
     .it-solution-banner {
         min-height: 410px;
+    }
+    .home-banner form{
+        width: 100%;
     }
     
     .navbar-toggler-icon{
@@ -465,6 +470,9 @@
     }
     .adventage ul{
         padding-left: 10px;
+    }
+    .home-banner form{
+        width: 100%;
     }
 }
 
